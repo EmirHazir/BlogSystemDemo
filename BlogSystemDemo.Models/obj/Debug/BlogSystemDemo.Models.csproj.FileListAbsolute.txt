@@ -1,0 +1,14 @@
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Models\bin\Debug\BlogSystemDemo.Models.dll.config
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Models\bin\Debug\BlogSystemDemo.Models.dll
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Models\bin\Debug\BlogSystemDemo.Models.pdb
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Models\bin\Debug\EntityFramework.dll
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Models\bin\Debug\EntityFramework.xml
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Models\obj\Debug\BlogSystemDemo.Models.csprojResolveAssemblyReference.cache
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Models\obj\Debug\BlogSystemDemo.Models.dll
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Models\obj\Debug\BlogSystemDemo.Models.pdb
