@@ -7,6 +7,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using BlogSystemDemo.Models;
+using BlogSystemDemo.ViewModels;
 
 namespace BlogSystemDemo.Controllers
 {

@@ -1,0 +1,7 @@
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Common\bin\Debug\BlogSystemDemo.Common.dll
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Common\bin\Debug\BlogSystemDemo.Common.pdb
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Common\obj\Debug\BlogSystemDemo.Common.dll
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Common\obj\Debug\BlogSystemDemo.Common.pdb
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Common\obj\Debug\BlogSystemDemo.Common.csprojResolveAssemblyReference.cache
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Common\bin\Debug\AutoMapper.dll
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Common\bin\Debug\AutoMapper.xml

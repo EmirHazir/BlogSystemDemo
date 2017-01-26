@@ -19,8 +19,14 @@
             set;
         }
 
-        
+        IDbSet<Post> Posts
+        {
+            get;
+            set;
+        }
 
+
+    
         public static BSDbContext Create()
         {
             return new BSDbContext();

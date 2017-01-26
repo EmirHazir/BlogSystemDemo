@@ -1,4 +1,4 @@
-﻿namespace TrackingSystem.Data
+﻿namespace BlogSystemDemo.Data
 {
     using System;
     using System.Collections.Generic;
@@ -23,6 +23,8 @@
             this.repositories = new Dictionary<Type, object>();
         }
 
+
+
         public IRepository<ApplicationUser> Users
         {
             get
@@ -31,7 +33,16 @@
             }
         }
 
-        
+        public IRepository<Post> Posts
+        {
+            get
+            {
+                return this.GetRepository<Post>();
+            }
+        }
+
+
+
 
         private IRepository<T> GetRepository<T>() where T : class
         {

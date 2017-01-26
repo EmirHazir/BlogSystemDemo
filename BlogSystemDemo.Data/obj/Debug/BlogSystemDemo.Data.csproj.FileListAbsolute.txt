@@ -14,3 +14,7 @@ C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSyste
 C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Data\obj\Debug\BlogSystemDemo.Data.csprojResolveAssemblyReference.cache
 C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Data\obj\Debug\BlogSystemDemo.Data.dll
 C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Data\obj\Debug\BlogSystemDemo.Data.pdb
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Data\obj\Debug\BlogSystemDemo.Data.Migrations.InitialCreate.resources
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Data\obj\Debug\BlogSystemDemo.Data.csproj.GenerateResource.Cache
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Data\obj\Debug\BlogSystemDemo.Data.Migrations.Added_Posts.resources
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Data\obj\Debug\BlogSystemDemo.Data.Migrations.Changed_Post_User_Id_Type.resources
