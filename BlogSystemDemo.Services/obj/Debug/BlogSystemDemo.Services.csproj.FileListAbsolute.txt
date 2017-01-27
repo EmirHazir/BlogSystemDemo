@@ -1,0 +1,15 @@
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Services\obj\Debug\BlogSystemDemo.Services.csprojResolveAssemblyReference.cache
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Services\bin\Debug\BlogSystemDemo.Services.dll
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Services\bin\Debug\BlogSystemDemo.Services.pdb
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Services\bin\Debug\BlogSystemDemo.Data.dll
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Services\bin\Debug\BlogSystemDemo.Models.dll
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Services\bin\Debug\EntityFramework.dll
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Services\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Services\bin\Debug\BlogSystemDemo.Data.pdb
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Services\bin\Debug\BlogSystemDemo.Models.pdb
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Services\bin\Debug\EntityFramework.xml
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Services\obj\Debug\BlogSystemDemo.Services.dll
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo.Services\obj\Debug\BlogSystemDemo.Services.pdb

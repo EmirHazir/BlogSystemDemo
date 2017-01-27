@@ -89,3 +89,12 @@ C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSyste
 C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo\bin\BlogSystemDemo.Common.dll
 C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo\bin\BlogSystemDemo.Common.pdb
 C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo\bin\AutoMapper.xml
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo\bin\Ninject.dll
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo\bin\Ninject.Web.Common.dll
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo\bin\Ninject.Web.Mvc.dll
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo\bin\WebActivatorEx.dll
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo\bin\Ninject.xml
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo\bin\Ninject.Web.Common.xml
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo\bin\Ninject.Web.Mvc.xml
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo\bin\BlogSystemDemo.Services.dll
+C:\Users\BURCUALA\Documents\Visual Studio 2015\Projects\BlogSystemDemo\BlogSystemDemo\bin\BlogSystemDemo.Services.pdb

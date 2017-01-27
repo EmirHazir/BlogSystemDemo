@@ -12,20 +12,6 @@ namespace BlogSystemDemo.Controllers
 {
     public abstract class BaseController : Controller
     {
-
-        public BaseController()
-            : this(new BlogSystemDemoData())
-        {
-
-        }
-
-        public BaseController(IBlogSystemDemoData data)
-        {
-            this.Data = data;
-        }
-
-        protected IBlogSystemDemoData Data { get; private set; }
-
         protected IMapper Mapper
         {
             get
@@ -33,7 +19,5 @@ namespace BlogSystemDemo.Controllers
                 return AutoMapperConfig.Configuration.CreateMapper();
             }
         }
-
-
     }
 }

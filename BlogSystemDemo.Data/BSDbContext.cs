@@ -10,16 +10,16 @@
         public BSDbContext()
             : base("BSConnection")
         {
-            //Database.SetInitializer(new MigrateDatabaseToLatestVersion<TrackingSystemDbContext, Configuration>());
+            //Database.SetInitializer(new MigrateDatabaseToLatestVersion<SystemDbContext, Configuration>());
         }
 
-        IDbSet<ApplicationUser> Users
+        public IDbSet<ApplicationUser> Users
         {
             get;
             set;
         }
 
-        IDbSet<Post> Posts
+        public IDbSet<Post> Posts
         {
             get;
             set;
@@ -31,5 +31,8 @@
         {
             return new BSDbContext();
         }
+
+        //public System.Data.Entity.DbSet<BlogSystemDemo.Models.Post> Posts { get; set; }
+        //public System.Data.Entity.DbSet<BlogSystemDemo.Models.ApplicationUser> IdentityUsers { get; set; }
     }
 }
