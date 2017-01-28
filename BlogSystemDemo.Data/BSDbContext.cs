@@ -2,7 +2,7 @@
 {
     using Microsoft.AspNet.Identity.EntityFramework;
     using System.Data.Entity;
-    //using BlogSystemDemo.Data.Migrations;
+    using BlogSystemDemo.Data.Migrations;
     using BlogSystemDemo.Models;
 
     public class BSDbContext : IdentityDbContext
@@ -10,7 +10,7 @@
         public BSDbContext()
             : base("BSConnection")
         {
-            //Database.SetInitializer(new MigrateDatabaseToLatestVersion<SystemDbContext, Configuration>());
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<BSDbContext, Configuration>());
         }
 
         public IDbSet<ApplicationUser> Users
@@ -32,6 +32,7 @@
             return new BSDbContext();
         }
 
+        //public System.Data.Entity.DbSet<BlogSystemDemo.ViewModels.PostViewModel> PostViewModels { get; set; }
         //public System.Data.Entity.DbSet<BlogSystemDemo.Models.Post> Posts { get; set; }
         //public System.Data.Entity.DbSet<BlogSystemDemo.Models.ApplicationUser> IdentityUsers { get; set; }
     }

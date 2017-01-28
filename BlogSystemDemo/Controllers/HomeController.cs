@@ -29,6 +29,13 @@ namespace BlogSystemDemo.Controllers
             return View(posts);
         }
 
+
+        public ActionResult Info1(int id)
+        {
+            var post = Mapper.Map<PostViewModel>(this.ipostService.Find(id));
+            return View(post);
+        }
+
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
@@ -36,6 +43,7 @@ namespace BlogSystemDemo.Controllers
             return View();
         }
 
+  
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";

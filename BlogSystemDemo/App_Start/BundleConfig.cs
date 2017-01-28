@@ -47,6 +47,12 @@ namespace BlogSystemDemo
                         ));
 
 
+            bundles.Add(new ScriptBundle("~/bundles/TinyMCEScripleri").Include(
+                "~/Scripts/tinymce/tinymce.js"
+
+                ));
+
+
         }
     }
 }

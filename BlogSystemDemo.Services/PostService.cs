@@ -12,14 +12,24 @@ namespace BlogSystemDemo.Services
 {
     public class PostService : BaseService<Post>, IPostService
     {
-        public PostService(IBlogSystemDemoData data)
-            :base(data)
+        public PostService(IBlogSystemDemoData data):base(data)
         {
         }
 
-        //Eklerken tarihide burada verdim
+        public override IQueryable<Post> GetAll()
+        {
+            //Postları eklenme tarihine göre cek
+            return base.GetAll().OrderByDescending(x=>x.CreatedDate);
+        }
+
+        public override Post Find(object id)
+        {
+            return base.Find(id);
+        }
+
         public override void Add(Post entity)
         {
+            //Postların tarihini eklenen tarihte kaydet
             entity.CreatedDate = DateTime.Now;
             base.Add(entity);
             base.SaveChanges();

@@ -23,6 +23,7 @@ namespace BlogSystemDemo.Services
         {
             return this.repository.All();
         }
+
         public virtual T Find (object id)
         {
             return this.repository.Find(id);
@@ -31,16 +32,19 @@ namespace BlogSystemDemo.Services
         public virtual void Add(T entity)
         {
             this.repository.Add(entity);
+            this.repository.SaveChanges();
         }
 
         public virtual void Update(T entity)
         {
             this.repository.Update(entity);
+            this.repository.SaveChanges();
         }
 
         public virtual void Delete(object id)
         {
             this.repository.Delete(id);
+            this.repository.SaveChanges();
         }
 
         public virtual void SaveChanges()

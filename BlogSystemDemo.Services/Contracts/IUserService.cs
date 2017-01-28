@@ -9,6 +9,8 @@ namespace BlogSystemDemo.Services.Contracts
 {
    public interface IUserService : IService<ApplicationUser>
     {
+#pragma warning disable CS0108 // Member hides inherited member; missing new keyword
         IQueryable<ApplicationUser> GetAll();
+#pragma warning restore CS0108 // Member hides inherited member; missing new keyword
     }
 }

@@ -1,53 +1,153 @@
 ﻿
-@{ 
+@{
     ViewBag.Title = "Index";
 }
 
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script>
+        tinymce.init({
+            selector: 'textarea',
+            height: 500,
+            menubar: false,
+            plugins: [
+              'advlist autolink lists link image charmap print preview anchor',
+              'searchreplace visualblocks code fullscreen',
+              'insertdatetime media table contextmenu paste code'
+            ],
+            toolbar: 'undo redo | insert | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image',
+            content_css: '//www.tinymce.com/css/codepen.min.css'
+        });
+    </script>
+}
 
 @model IEnumerable<PostViewModel>
 
 
+@foreach (var post in Model)
+{
+    <div class="cc_single_post">
+        <div class="sp_link_box sp_video_box">
+            <div class="p_link"><a class="fa-fa-link"></a></div>
+            <a href="~/Home/Info1/@post.Id">"En iyi bildiğin işi yap. Mutlu ol”</a>
+            <span>@post.Author.UserName</span>
+        </div>
 
-<div class="fashion_area">
-    <div class="row">
-        <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="header_fasion">
-                <div class="left_fashion main_nav_box">
+
+        <div class="sp_details">
+            <a href="~/Home/Info1/@post.Id">@post.Title</a>
+            <h2>@post.Title</h2>
+            <div class="post_meta">
+                <ul>
+                    <li><a href=""><i class="fa fa-user"></i>By luck @post.Author.Email</a></li>
+                    <li><a href=""><i class="fa fa-eye"></i>500</a></li>
+                    <li><a href=""><i class="fa fa-comment-o"></i>45</a></li>
+
+                </ul>
+            </div>
+            <div class="post_text">
+                <p>
+                    News is one of the excellent magazine in the world.News  magazine reached many readers very soon by his unique stories in the magazine."But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the  a system, at expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, are avoids pleasure i
+                    tself, because sure rationally encounter consequences theare extremely painful.
+                </p>
+                <div class="post_inner" style="height:auto">
+                    <p>
+                            @Html.Raw(post.Content)   
+                    </p>
+                    <a href="~/Home/Info1/@post.Id" class="btn btn-primary">Daha fazla oku...</a>
+                </div>
+                <p>
+                    News is one of the excellent magazine in the world.News  magazine reached many readers very soon by his unique stories in the magazine."But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the  a system, at expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, are avoids pleasure i
+                    tself, because sure rationally encounter consequences theare extremely painful.
+                </p>
+            </div>
+            <div class="social_tags">
+                <div class="social_tags_left">
+                    <p>Tags :</p>
                     <ul>
-                        <li class="nav_fashion"><a href="">Fashion</a></li>
+                        <li><a href="">Photography</a></li>
+                        <li><a href="">Content</a></li>
+                        <li><a href="">News</a></li>
                     </ul>
                 </div>
-                <div class="fasion_right">
+                <div class="social_tags_right">
                     <ul>
-                        <li><a href="">Style</a></li>
-                        <li><a href="">smart living</a></li>
-                        <li><a href="">fashion week</a></li>
-                        <li class="last_item"><a href="">...</a></li>
+                        <li class="facebook"><a class="fa fa-facebook" href=""></a></li>
+                        <li class="twitter"><a class="fa fa-twitter" href=""></a></li>
+                        <li class="google-plus"><a class="fa fa-google-plus" href=""></a></li>
+                        <li class="linkedin"><a class="fa fa-linkedin" href=""></a></li>
                     </ul>
                 </div>
             </div>
-            <div class="fashion_area_box">
-                <div class="row">
-                   @foreach (var post in Model)
-                   {
-                    <div class="post-preview">
-                        <a href="post.html">
-                            <h2 class="post-title">
-                                @post.Title
-                            </h2>
-                            <h3 class="post-subtitle">
-                                @post.Content
-                            </h3>
-                        </a>
-                        <p class="post-meta">Posted by <a href="#">@post.Author.UserName </a> on @post.CreatedDate</p>
-                    </div>
+        </div>
+    </div>
+}
 
-                   }
-                </div>
+
+@*Eğer yapabilirsen bu kısım extra*@
+<div class="sp-comments-box">
+    <h2>Comments</h2>
+    <div class="single_comment">
+        <div class="single_comment_pic">
+            <img src="images/comment-pic1.png" alt="" />
+        </div>
+        <div class="single_comment_text">
+            <div class="sp_title">
+                <a href=""><h4>Chris Hemsworth</h4></a>
+                <p>10 Min ago</p>
             </div>
-            
-            <div class="home_add_box"> <img src="~/Content/images/ht-add.jpg" alt="add" /> </div>
-            
+            <p>They call him Flipper Flipper faster than lightning. No one you see is smarter than he. They call him Flipper Flipper the faster than lightning. No one you see is smarter than he</p>
+            <a href=""><i class="fa fa-reply"></i>Reply</a>
+        </div>
+    </div>
+    <div class="single_comment single_comment_middle">
+        <div class="single_comment_pic">
+            <img src="images/comment-pic2.png" alt="" />
+        </div>
+        <div class="single_comment_text">
+            <div class="sp_title">
+                <a href=""><h4>Chris Hemsworth</h4></a>
+                <p>10 Min ago</p>
+            </div>
+            <p>They call him Flipper Flipper faster than lightning. No one you see is smarter than he. They call him Flipper Flipper the faster than lightning. No one you see is smarter than he</p>
+            <a href=""><i class="fa fa-reply"></i>Reply</a>
+        </div>
+    </div>
+    <div class="single_comment single_comment_last">
+        <div class="single_comment_pic">
+            <img src="images/comment-pic3.png" alt="" />
+        </div>
+        <div class="single_comment_text">
+            <div class="sp_title">
+                <a href=""><h4>Chris Hemsworth</h4></a>
+                <p>10 Min ago</p>
+            </div>
+            <p>They call him Flipper Flipper faster than lightning. No one you see is smarter than he. They call him Flipper Flipper the faster than lightning. No one you see is smarter than he</p>
+            <a href=""><i class="fa fa-reply"></i>Reply</a>
+        </div>
+    </div>
+</div>
+<div class="comment-form">
+    <h2>leave your comments</h2>
+    <div class="comments_form">
+        <form>
+            <div class="inp_name">
+                <input id="c_name" type="text" placeholder="Your Name" required />
+                <input type="text" placeholder="Your Name" required />
+            </div>
+            <textarea cols="30" rows="10" placeholder="Message"></textarea>
+            <input type="submit" value="Send Message" />
+        </form>
+    </div>
+</div>
+<div class="sp-next-prev">
+    <div class="sp-prev">
+        <a href=""><i class="fa fa-angle-double-left"></i>Previous post</a>
+    </div>
+    <div class="sp-next">
+        <a href="">Previous post<i class="fa fa-angle-double-right"></i></a>
+        <div class="sp-next-post">
+            <a href="">What Do I Need To Make It In <br>Business?</a>
         </div>
     </div>
 </div>
@@ -56,9 +156,18 @@
 
 
 
+
+
+
+
+
+
+
+
+
 <!-- Pager -->
 @*<ul class="pager">
-    <li class="next">
-        <a href="#">Older Posts &rarr;</a>
-    </li>
-</ul>*@
+        <li class="next">
+            <a href="#">Older Posts &rarr;</a>
+        </li>
+    </ul>*@

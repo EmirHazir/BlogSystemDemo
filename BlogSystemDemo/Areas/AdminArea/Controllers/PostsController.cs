@@ -46,6 +46,7 @@ namespace BlogSystemDemo.Areas.AdminArea.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [ValidateInput(false)]
         public ActionResult Create(PostViewModel post)
         {
             if (ModelState.IsValid)
@@ -82,15 +83,16 @@ namespace BlogSystemDemo.Areas.AdminArea.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Title,Content,AuthorId,CreatedDate,IsDeleted")] Post post)
+        [ValidateInput(false)]
+        public ActionResult Edit(PostViewModel post)
         {
             if (ModelState.IsValid)
             {
-                this.ipostService.Update(post);
-                this.ipostService.SaveChanges();
+                var dbpost = Mapper.Map<Post>(post);
+                this.ipostService.Update(dbpost);
                 return RedirectToAction("Index");
             }
-            ViewBag.AuthorId = new SelectList(iuserService.GetAll(), "Id", "Email", post.AuthorId);
+            post.Users = new SelectList(iuserService.GetAll(), "Id", "Email", post.AuthorId);
             return View(post);
         }
 
@@ -112,11 +114,11 @@ namespace BlogSystemDemo.Areas.AdminArea.Controllers
         // POST: AdminArea/Posts/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [ValidateInput(false)]
         public ActionResult DeleteConfirmed(int id)
         {
-            Post post = ipostService.Find(id);
+
             this.ipostService.Delete(id);
-            this.ipostService.SaveChanges();
             return RedirectToAction("Index");
         }
 

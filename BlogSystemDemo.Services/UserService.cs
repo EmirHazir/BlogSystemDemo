@@ -13,6 +13,18 @@ namespace BlogSystemDemo.Services
     {
         public UserService(IBlogSystemDemoData data) : base(data)
         {
+          
+        }
+
+        public override IQueryable<ApplicationUser> GetAll()
+        {
+            return base.GetAll();
+        }
+
+        public override void Add(ApplicationUser entity)
+        {
+            
+            base.Add(entity);
         }
     }
 }
